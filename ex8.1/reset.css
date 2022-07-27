@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: unset;
+}
+ul,ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+}
+img {
+    object-fit: cover;
+}
+body {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.col {
+    width: calc(100%/3);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.h-100 {
+    height: 100%;
+}
+
+.badge {
+    color: white;
+    background-color: grey;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+.badge-grey {
+    background-color: grey;
+}
+.badge-green {
+    background-color: #8bc34a;
+}
+.badge-blue {
+    background-color: #3089fc;
+}
+.badge-red {
+    background-color: #f23a2f;
+}
+.badge-yellow {
+    background-color: #f89d14;
+}
